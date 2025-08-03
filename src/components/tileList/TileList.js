@@ -8,7 +8,7 @@ export const TileList = ({ data }) => {
       {list.map((e, i) =>
         <Tile
           key={i}
-          name={e.title}
+          name={e.title || e.name}
           description={{ contact: e.contact, date: e.date, time: e.time }}
         />
       )}
