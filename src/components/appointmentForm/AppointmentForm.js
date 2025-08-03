@@ -49,7 +49,7 @@ export const AppointmentForm = ({
         onChange={e => setTime(e.target.value)}
         required
       />
-      <button type="submit">Send</button>
+      <button type="submit">Add</button>
     </form>
   );
 };

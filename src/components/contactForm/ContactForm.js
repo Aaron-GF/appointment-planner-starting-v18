@@ -45,7 +45,7 @@ export const ContactForm = ({
         onChange={(e) => setEmail(e.target.value)}
         placeholder="your e-mail..."
       />
-      <button type="submit">Send</button>
+      <button type="submit">Add</button>
     </form>
   );
 };
